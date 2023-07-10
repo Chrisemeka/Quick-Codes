@@ -1,0 +1,37 @@
+body{
+    background-color: #778194;
+}
+.container{
+    width: 400px;
+    margin: 100px auto;
+    background-color: #323947;
+    padding: 50px;
+    border: 1px solid #323947;
+    border-radius: 10px;
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
+}
+.btn{
+    width: 100%;
+}
+h5{
+    color: #fff;
+}
+.code{
+    width: 150px;
+    height: 150px;
+    margin: 0px 80px;
+}
+.error{
+    border: 2px solid red;
+}
+@media screen and (max-width: 425px){
+    .container{
+        width: 300px;
+    }
+    .code{
+        width: 150px;
+        height: 150px;
+        margin: 0px 30px;
+    }
+}
